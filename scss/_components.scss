@@ -1,0 +1,26 @@
+/* Button1 */
+
+
+.btn{
+    display: inline-block;
+
+    .btn-text{
+        font-size: 16px;
+        font-weight: 700;
+        word-wrap: break-word;
+        color: $text-muted;
+        text-decoration: none;
+
+
+        :hover{
+            color: $text-active;
+        }
+
+
+        li{
+            list-style: url(/images/polygon-primary.svg);
+            line-height: 18px;
+            border-bottom: 0.8px $text-muted solid;
+        }
+    }
+}
