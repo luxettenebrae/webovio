@@ -1,0 +1,52 @@
+/* Colors */
+/* Fonts */
+html {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.h1 {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 74px;
+  word-wrap: break-word;
+}
+.h1__light {
+  color: #FFFFFF;
+}
+.h1__secondary {
+  color: #4D533C;
+}
+
+.h6 {
+  font-size: 14px;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+.h6__light {
+  color: #FFFFFF;
+}
+
+/* Containers */
+.container {
+  padding-left: 11.515%;
+  padding-right: 11.515%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Sections */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 28px;
+}
+
+.header {
+  background-image: url(/images/slide2.png);
+  background-size: cover;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,21 @@
+.h1 {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 74px;
+    word-wrap: break-word;
+    &__light{
+       color: $text-primary;
+    }
+    &__secondary{
+        color: $text-secondary;
+    }
+}
+
+.h6{
+    font-size: 14px;
+    font-weight: 400;
+    word-wrap: break-word;
+    &__light{
+        color: $text-primary;
+    }
+}
